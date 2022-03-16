@@ -1,0 +1,72 @@
+.container
+{
+    width: 1680px;
+    margin: 0 auto;
+}
+
+.span
+{
+    color: #EE58B6;
+}
+
+.header
+{
+    margin: 30px 0;
+}
+.header__info
+{
+    font: normal 500 16px/19.5px Montserrat;
+    margin: 40px 0;
+}
+
+.header__info__elem
+{
+    margin-bottom: 20px;
+}
+
+.header .header__button
+{
+    width: 247px;
+    height: 55px;
+    left: 1433px;
+    top: 0px;
+    text-align: center;
+}
+.header__logo
+{
+    letter-spacing: -0.045em;
+    font: normal 700 30.8354px/122.33% Montserrat;
+}
+
+.button
+{
+    border: none;
+    border-radius: 4.59px;
+    background: #05090C;
+    font: normal 600 16px/16px Montserrat;
+    color: white;
+}
+.main .main__about
+{
+    margin: 60px 0;
+} 
+.main__about .main__about_h1
+{
+    font: normal 600 100px/122.35% Montserrat;
+    margin: 0 0 30px 0;
+}
+
+.main__about .main__about_button
+{
+    width: 332px;
+    height: 55px;
+    left: 0px;
+    top: 251px;
+}
+
+.main__about .main__about_descr
+{
+    font: normal 400 26px/31.2px Roboto Condensed;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
