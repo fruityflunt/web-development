@@ -1,72 +1,115 @@
-.container
+
+.text
 {
-    width: 1680px;
-    margin: 0 auto;
+    font-family: 'Roboto Condensed';
 }
 
-.span
+
+.pink
 {
     color: #EE58B6;
 }
 
-.header
+.header__list
 {
-    margin: 30px 0;
-}
-.header__info
-{
-    font: normal 500 16px/19.5px Montserrat;
-    margin: 40px 0;
+    font: 500 16px/1.25 'Montserrat', sans-serif;
+    list-style-type: none;
+    width: 469px;
 }
 
-.header__info__elem
-{
-    margin-bottom: 20px;
-}
-
-.header .header__button
-{
-    width: 247px;
-    height: 55px;
-    left: 1433px;
-    top: 0px;
-    text-align: center;
-}
-.header__logo
-{
-    letter-spacing: -0.045em;
-    font: normal 700 30.8354px/122.33% Montserrat;
+.point__link_no-decoration {
+    text-decoration: none;
+    color: #000;
 }
 
 .button
 {
-    border: none;
-    border-radius: 4.59px;
+    height: 55px;    
     background: #05090C;
-    font: normal 600 16px/16px Montserrat;
-    color: white;
-}
-.main .main__about
-{
-    margin: 60px 0;
-} 
-.main__about .main__about_h1
-{
-    font: normal 600 100px/122.35% Montserrat;
-    margin: 0 0 30px 0;
+    box-sizing: border-box;
+    border-radius: 4.59px;
+    color:#fff;
+    font: 600 16px 'Montserrat';
 }
 
-.main__about .main__about_button
+.header__button
+{
+    width: 247px;
+    padding: 19px 40px;
+}
+
+.top__button
 {
     width: 332px;
-    height: 55px;
-    left: 0px;
-    top: 251px;
+    padding: 19px 82.5px;
 }
 
-.main__about .main__about_descr
+.top
 {
-    font: normal 400 26px/31.2px Roboto Condensed;
-    color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.top__title
+{
+    font: 600 100px/1.22 'Montserrat';
+    color: #000;
+}
+
+.features
+{
+    background: #000;
+    color:#fff;
+}
+
+.features__description
+{
+    font: 400 22px/1.2 'Roboto Condensed';
+}
+
+
+.reasoning
+{
+    font-size: 18px;
+    line-height: 135%;
+}
+
+
+.reasoning__heading
+{
+    font: 500 48px/1.26 'Montserrat';
+}
+
+.reasoning__first-block__text-width
+{
+    font: 400 18px/24.3px 'Roboto Condensed';
+    font-size: 18px;
+    line-height: 24px;
+
+}
+
+.reasoning__second-block__text-width
+{
+    font: 400 18px/24.3px 'Roboto Condensed';
+}
+
+
+.description__heading
+{
+    font: 500 48px/59px 'Montserrat';
+}
+
+.description__block
+{
+    border-radius: 7.36px;
+    background-color: #000;
+    color: #fff;
+    font: 400 18px 'Roboto Condensed';
+}
+
+
+.footer
+{
+    background-color: #000;
+    color: #fff;
 }
