@@ -101,6 +101,10 @@
     		</div>
 		</div>
 	</div>
+	<?php
+    	include "form.php";
+  	?>
+
 
 	<footer class="footer">
 		<img class="footer__logo" src="images/logo-white.svg" alt="logotype" />

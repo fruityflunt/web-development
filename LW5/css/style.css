@@ -1,115 +1,120 @@
-
-.text
+.header
 {
-    font-family: 'Roboto Condensed';
+	font: 500 16px/20px 'Montserrat', sans-serif;
+}
+
+.header__inline-list
+{
+	list-style-type: none;
+}
+
+.header__nav-link
+{
+	text-decoration: none;
+	color: #000;
+}
+
+.button
+{
+	color: #FFFFFF;
+	font: 600 16px/16px 'Montserrat';
+	letter-spacing: 0em;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 4.59px;
+	background: #05090C;
+}
+
+.button:hover
+{
+	cursor: pointer;
+}
+
+.header__button
+{
+	padding: 20px 40px 19px 40px;
+	max-width: 247px;
 }
 
 
 .pink
 {
-    color: #EE58B6;
+	color: #EE58B6;
 }
 
-.header__list
+.main__title
 {
-    font: 500 16px/1.25 'Montserrat', sans-serif;
-    list-style-type: none;
-    width: 469px;
-}
-
-.point__link_no-decoration {
-    text-decoration: none;
+	font: 600 100px/122px 'Montserrat';
+	letter-spacing: 0em;
     color: #000;
 }
 
-.button
+.main__text
 {
-    height: 55px;    
-    background: #05090C;
-    box-sizing: border-box;
-    border-radius: 4.59px;
-    color:#fff;
-    font: 600 16px 'Montserrat';
+	font: 400 26px/31px 'Roboto Condensed', sans-serif;
+	letter-spacing: 0em;
+	color: #000000B2;
 }
 
-.header__button
+.main__button
 {
-    width: 247px;
-    padding: 19px 40px;
-}
-
-.top__button
-{
-    width: 332px;
-    padding: 19px 82.5px;
-}
-
-.top
-{
-    font-size: 26px;
-    line-height: 1.2;
-}
-
-.top__title
-{
-    font: 600 100px/1.22 'Montserrat';
-    color: #000;
+	max-width: 332px;
+	padding: 20px 81px 19px 84px;
 }
 
 .features
 {
-    background: #000;
+	font: 400 22px/26px 'Roboto Condensed';
+	letter-spacing: 0em;
+	background: #000;
     color:#fff;
 }
 
-.features__description
+
+.deadline__title
 {
-    font: 400 22px/1.2 'Roboto Condensed';
-}
-
-
-.reasoning
-{
-    font-size: 18px;
-    line-height: 135%;
-}
-
-
-.reasoning__heading
-{
-    font: 500 48px/1.26 'Montserrat';
-}
-
-.reasoning__first-block__text-width
-{
-    font: 400 18px/24.3px 'Roboto Condensed';
-    font-size: 18px;
-    line-height: 24px;
+	font: 500 48px/61px 'Montserrat';
+	font-family: Montserrat;
+	letter-spacing: 0em;
 
 }
 
-.reasoning__second-block__text-width
+.deadline__description
 {
-    font: 400 18px/24.3px 'Roboto Condensed';
+	font: 400 18px/24px 'Roboto Condensed';
+	color: #000000B2;
+	letter-spacing: 0em;
+}
+.opportunities
+{
+	margin-bottom: 288px;
+}
+.opportunities__title
+{
+	font: 500 48px/59px 'Montserrat';
+	font-family: Montserrat;
+	letter-spacing: 0em;
 }
 
-
-.description__heading
+.opportunities__blocks
 {
-    font: 500 48px/59px 'Montserrat';
+	font: 400 18px/21px 'Roboto Condensed';
+	color: #fff;
+	letter-spacing: 0em;
 }
 
-.description__block
+.opportunities__block
 {
-    border-radius: 7.36px;
-    background-color: #000;
-    color: #fff;
-    font: 400 18px 'Roboto Condensed';
+	background: #000;
+	max-width: 358px;
+	height: 190px;
+	border-radius: 7.36px;
 }
-
 
 .footer
 {
     background-color: #000;
+    height: 108px;
     color: #fff;
 }
+
