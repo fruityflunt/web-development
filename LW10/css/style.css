@@ -48,7 +48,7 @@ body
 
 .header__button
 {
-	padding: 21px 40px 19px 40px;
+	padding: 21px 20px 19px 20px;
 	max-width: 247px;
 	width: 247px;
 	position: relative;
@@ -76,7 +76,7 @@ body
 
 .pink
 {
-	color: #EE58B6;
+	color: #ee58B6;
 }
 
 .main
@@ -117,7 +117,7 @@ body
 .main__button
 {
 	max-width: 332px;
-	padding: 20px 74px 18px 82px;
+	padding: 20px 40px 18px 40px;
     margin-top: 47px;
 }
 
@@ -295,7 +295,7 @@ body
 
 .footer
 {
-	margin-top: 197px;
+	margin-top: 228px;
     background-color: #000;
     color: #fff;
     text-align: center;
@@ -303,22 +303,68 @@ body
 }
 .footer__logo
 {
-	margin-left: 9px;
+	margin-left: 19px;
 }
 
 
 .form
 {
-	margin-top: 100px;
 	text-align: center;
-	margin-left: 8px;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3374px;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: .2s ease-in-out;
+    /*position: fixed;*/
 }
+.form__content
+{
+	margin: 0 auto;
+    margin-top: 40px;
+    background-color: #fff;
+    width: 640px;
+    height: 847px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    transform: scale(0.5);
+    transition: .2s ease-in-out;
+}
+.form__content.active
+{
+	transform: scale(1);
+}
+
+
+.form.active {
+    opacity: 1;
+    pointer-events: all;
+    transition: .2s ease-in-out;
+}
+.form__image-welcome
+{
+	margin-right: 10px;
+	margin-top: -5px;
+}
+.form__close-popup
+{
+	position: absolute;
+	top: 21px;
+    right: 26px;
+}
+
 .form__title
 {
 	letter-spacing: 0em;
 	font: 500 26px/31px 'Montserrat';
-	margin-top: -3px;
+	margin-top: 1px;
 	margin-bottom: 12px;
+	margin-right: 10px;
 }
 .form__container
 {
@@ -330,7 +376,6 @@ body
 .form__elementh
 {
 	margin-top: 20px;
-	margin-left: 10px;
 	padding: 21px 27px 21px 28px;
     background: #fff;
     border: 1.3px solid #c0c0c0;
@@ -343,13 +388,17 @@ body
 }
 .form__choose
 {
-	padding: 2px 13px 1px 24px;
+	padding: 5px 48px 1px 27px;
+    appearance: none;
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: right 28px center;
 }
 
 .form__checkbox-container
 {
-	margin-top: 36px;
-	margin-right: 14px;
+	margin-top: 35px;
+    margin-right: 24px;
 }
 .form__checkbox-text
 {
@@ -366,6 +415,7 @@ body
     display: inline-flex;
     align-items: center;
     user-select: none;
+    margin-top: 1px;
 }
 
 .form__checkbox + label::before
@@ -400,7 +450,6 @@ body
 .form__button
 {
 	margin-top: 31px;
-	margin-left: 10px;
 	max-width: 480px;
 	width: 480px;
 	height: 64px;
@@ -621,6 +670,23 @@ body
 	{
 		max-width: 760px;
 	}
+	.form__content
+	{
+		max-width: 450px;
+	}
+	.form__elementh
+	{
+  		margin-left: 0;
+	    width: 290px;
+	}
+	.form__checkbox-text
+	{
+		max-width: 290px;
+	}
+	.form__button
+	{
+		width: 290px;
+	}
 }
 @media screen and (max-width: 768px)
 {
@@ -746,7 +812,11 @@ body
   	{
 		max-width: 300px;
 	}
-	.form__images
+	.form__content
+	{
+		max-width: 320px;
+	}
+	.form__image-welcome
 	{
 		width: 65%;
 	}
